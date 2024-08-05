@@ -1,0 +1,146 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan"
+      ],
+      "responses": [
+        "Hai! ParuCekBot di sini. Mau tau informasi tentang penyakit kanker paru?",
+        "Halo! Saya ParuCekBot, salam kenal ya! Mau tau tentang penyakit kanker paru, Ya?",
+        "Halo, selamat datang di ParuCekBot"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati:)",
+        "Sama-sama"
+      ]
+    },
+    {
+      "tag": "informasi_kanker_paru",
+      "patterns": [
+        "Apa itu kanker paru?",
+        "Jelaskan kepada saya tentang penyakit paru?",
+        "Jelaskan penyakit kanker paru?"
+      ],
+      "responses":[
+        "Kanker paru adalah penyakit ganas pada organ paru-paru yang disebabkan oleh perubahan genetika pada sel epitel saluran pernafasan yang menyebabkan perkembangbiakan sel yang tidak terkendali.",
+        "Kanker paru adalah pertumbuhan sel kanker yang tidak terkendali dalam jaringan paru yang dapat disebabkan oleh sejumlah karsinogen lingkungan, terutama asap rokok."
+      ]
+    },
+    {
+      "tag": "gejala",
+      "patterns": [
+        "Apa gejala penyakit kanker paru?",
+        "Bagaimana gejala penyakit kanker paru?",
+        "Apa gejala kanker paru?"
+      ],
+      "responses": [
+        "Gejala penyakit kanker paru adalah terjadi kelelahan, pembengkakan, perubahan berat badan, perubahan kulit seperti penyakit kuning, batuk terus-menerus, nyeri otot, suara serak, kesulitan menelan, dan nyeri dibagian dada."
+      ]
+    },
+    {
+      "tag": "fungsi_aplikasi",
+      "patterns": [
+        "fungsi dari chatbot apa saja?",
+        "Chatbot ini untuk apa saja?"
+      ],
+      "responses": [
+        "Saya ParuCekBot mempunyai 2 fitur yang dapat digunakan, yaitu untuk memberikan informasi Kanker Paru dan juga bisa fitur untuk melakukan tes prediksi penyakit kanker paru. (Apabila sudah tidak ada yang ingin di tanyakan pada fitur chatbot informasi dan berpindah ke fitur prediksi anda dapat mengetik (Bye) untuk keluar dari fitur chatbot informasi dan dapat langsung mencoba fitur prediski.)"
+      ]
+    },
+    {
+      "tag": "penyebab_kanker_paru",
+      "patterns": [
+        "Apa penyebab penyakit kanker paru?",
+        "Apa yang menyebabkan terjadinya kanker paru?",
+        "penyebab penyakit kanker paru?"
+      ],
+      "responses": [
+        "Penyebab utama dari penyakit ini adalah merokok",
+        "Penyebab kanker paru diantaranya merokok, paparan zat berbahaya, paparan polusi udara, riwayat keluarga, dan infeksi Tuberkulosis."
+      ]
+    },
+    {
+      "tag": "pencegahan",
+      "patterns": [
+        "Bagaimana cara mencegah kanker paru?",
+        "Cara mencegah penyakit pada paru?"
+      ],
+      "responses": [
+        "Pencegahan utama berhenti merokok, menghindari paparan asap rokok maupun zat berbahaya, gaya hidup sehat seperti berolahraga secara teratur, dan pilih makanan sehat."
+      ]
+    },
+    {
+      "tag": "diagnosis",
+      "patterns": [
+        "Cara diagnosis penyakit kanker paru?",
+        "Bagaimana cara mendiagnosis kanker paru?"
+      ],
+      "responses": [
+        "Dengan cara pemeriksaan fisik, konsultasi medis, Rontgen dada, CT Scan atau MRI dan PET scan ke rumah sakit."
+      ]
+    },
+    {
+      "tag": "rumah_sakit",
+      "patterns": [
+        "Apakah kamu tahu rumah sakit yang menangani kanker?",
+        "Rumah sakit kanker paru terletak dimana?",
+        "Rumah sakit khusus kanker dimana saja?",
+        "Tolong rekomendasikan rumah sakit khusus kanker"
+      ],
+      "responses": [
+        "Rumah Sakit Cipto Mangunkusumo (RSCM) Jakarta Pusat",
+        "Rumah Sakit Kanker Dharmais Jakarta Barat",
+        "Rumah Sakit Siloam Semanggi Jakarta Selatan",
+        "Rumah Sakit Pondok Indah Jakarta Barat",
+        "Rumah Sakit Husada Jakarta Barat"
+      ]
+    }
+  ]
+}
